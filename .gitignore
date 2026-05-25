@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 .ruff_cache/
 .mypy_cache/
+uv.lock
 
 # Runtime artifacts
 outputs/

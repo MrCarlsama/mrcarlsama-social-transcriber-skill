@@ -326,7 +326,6 @@ mrcarlsama-social-transcriber/
   LICENSE
   .gitignore
   pyproject.toml
-  uv.lock
 
   skills/
     mrcarlsama-social-transcriber/
