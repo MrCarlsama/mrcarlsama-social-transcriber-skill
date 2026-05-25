@@ -1,4 +1,4 @@
-# MrcCarlsama 社交内容转写 Skill
+# MrCarlsama 社交内容转写 Skill
 
 把一条抖音或小红书链接整理成本地内容资产的 Skill，支持 Codex 和 Claude Code。
 
