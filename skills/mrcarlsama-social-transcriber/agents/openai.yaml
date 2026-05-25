@@ -1,0 +1,6 @@
+interface:
+  display_name: "mrcarlsama 社交内容转写"
+  short_description: "处理一条抖音或小红书链接。"
+  default_prompt: "使用 $mrcarlsama-social-transcriber 处理这一条抖音或小红书链接。"
+policy:
+  allow_implicit_invocation: true

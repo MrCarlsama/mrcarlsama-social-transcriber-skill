@@ -1,0 +1,23 @@
+[project]
+name = "mrcarlsama-social-transcriber"
+version = "0.1.0"
+description = "把一条抖音或小红书链接整理成本地内容资产的 Codex Skill。"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+  "faster-whisper>=1.1.0",
+  "imageio-ffmpeg>=0.6.0",
+  "platformdirs>=4.3.0",
+  "playwright>=1.52.0",
+  "yt-dlp>=2026.3.17",
+]
+
+[project.optional-dependencies]
+dev = [
+  "ruff>=0.14.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

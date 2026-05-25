@@ -1,0 +1,57 @@
+{
+  "platform": "douyin",
+  "id": "7434122308811361587",
+  "url": "https://www.douyin.com/video/7434122308811361587",
+  "title": "示例视频标题",
+  "content": {
+    "title": "示例视频标题",
+    "body": "这是平台返回的正文或描述示例。",
+    "uploader": "示例作者",
+    "upload_date": "20260324",
+    "timestamp": 1774281600,
+    "stats": {
+      "like_count": 1200,
+      "comment_count": 88,
+      "favorite_count": 300,
+      "share_count": 42,
+      "view_count": 56000
+    }
+  },
+  "output_dir_name": "2026-3-24[douyin][示例视频标题]",
+  "files": {
+    "原视频": "示例视频标题原视频.mp4",
+    "原音频": "示例视频标题原音频.wav",
+    "正文_md": "示例视频标题正文.md",
+    "原始逐字稿_md": "示例视频标题原始逐字稿.md",
+    "原始逐字稿_txt": "示例视频标题原始逐字稿.txt",
+    "字幕_srt": "示例视频标题字幕.srt",
+    "最终润色稿_待生成": "示例视频标题逐字稿.md",
+    "词级时间戳_json": "_meta/words.json",
+    "任务清单_json": "_meta/manifest.json",
+    "运行报告_json": "_meta/report.json",
+    "下载器原始信息_json": "_meta/provider-info.json"
+  },
+  "model": "faster-whisper-small",
+  "language": "zh",
+  "language_probability": 1.0,
+  "access": {
+    "method": "public-visitor-cookie",
+    "user_cookie_file": null,
+    "generated_public_visitor_cookie_used": true,
+    "browser_profile_read": false
+  },
+  "resume_steps": [
+    "download",
+    "audio"
+  ],
+  "segments": 441,
+  "words": 3507,
+  "asr_attempts": [
+    {
+      "model": "small",
+      "ok": true,
+      "transcript_chars": 12000
+    }
+  ],
+  "status": "done"
+}

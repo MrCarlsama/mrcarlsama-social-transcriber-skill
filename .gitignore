@@ -1,0 +1,24 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.mypy_cache/
+
+# Runtime artifacts
+outputs/
+*.mp4
+*.wav
+*.m4a
+*.mp3
+*.srt
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# Sensitive or machine-local files
+*.cookies.txt
+cookies.txt
+.env
+.cache/
